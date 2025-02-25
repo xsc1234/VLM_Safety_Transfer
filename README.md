@@ -1,6 +1,6 @@
 # VLM_Safety_Transfer
 
-This is the code for our paper Cross-Modal Safety Mechanism Transfer in Large Vision-Language Models (ICLR 2025)
+This is the code for our paper ''Cross-Modal Safety Mechanism Transfer in Large Vision-Language Models (ICLR 2025)''
 ### Analyze the misalignment phenomenon of hidden states in VLM
 ```
 sh ./tox_analysis/tox_llava.sh
@@ -90,4 +90,15 @@ deepspeed ./TGA/train_TGA.py \
     --dataloader_num_workers 4 \
     --lazy_preprocess True
 
+```
+
+```
+@inproceedings{
+xu2025crossmodal,
+title={Cross-Modal Safety Mechanism Transfer in Large Vision-Language Models},
+author={Shicheng Xu and Liang Pang and Yunchang Zhu and Huawei Shen and Xueqi Cheng},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=45rvZkJbuX}
+}
 ```
